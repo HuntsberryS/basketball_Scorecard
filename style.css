@@ -21,7 +21,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   color: white;
 }
-#score-el {
+.score-el {
   background-color: black;
   border-radius: 7px;
   width: 400px;
