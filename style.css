@@ -1,0 +1,48 @@
+* {
+  background-color: rgb(4, 4, 42);
+  margin: 7% auto;
+}
+
+.doto-font {
+  font-family: "Doto", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "ROND" 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 96px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+#score-el {
+  background-color: black;
+  border-radius: 7px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 136px;
+  font-family: "Doto";
+  color: red;
+}
+
+#score-increment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+}
+.number {
+  border: solid 1px white;
+  border-radius: 7px;
+  padding: 30px;
+  font-family: "Doto";
+  font-size: 46px;
+  font-weight: 700;
+}
