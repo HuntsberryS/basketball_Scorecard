@@ -1,13 +1,39 @@
-let score = 0;
+let homeScore = 0;
+let guestScore = 0;
+let homeScoreDisplay = document.getElementById("home-score-el");
+let guestScoreDisplay = document.getElementById("guest-score-el");
 
-let homeScore = document.getElementById("home-score-el");
+let addTwo = document.getElementById("homeTwo")
+addTwo.addEventListener("click", homeIncrement())
 
-let guestScore = document.getElementById("guest-score-el");
+let addThree = document.getElementById("homeThree")
+addThree.addEventListener("click", homeIncrement())
 
-function increment() {
-  score++;
-  alert(score);
+function h1 () {
+homeScore += 1
+homeScoreDisplay.innerText = homeScore
+}
+      function h2 () {
+        homeScore += 2
+      homeScoreDisplay.innerText = homeScore
+      }   
+
+      function h3 () {
+        homeScore += 3
+      homeScoreDisplay.innerText = homeScore
+      }
+
+      function g1 () {
+        guestScore += 1
+      guestScoreDisplay.innerText = guestScore
+      }
+
+      function g2 () {
+  guestScore += 2
+  guestScoreDisplay.textContent = guestScore
+}
+function g3 () {
+  guestScore += 3
+  guestScoreDisplay.textContent = guestScore
 }
 
-let add1 = document.getElementById("homeincrement1");
-add1.addEventListener("click", increment());

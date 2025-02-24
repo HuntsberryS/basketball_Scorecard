@@ -38,7 +38,10 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-evenly;
 }
-.number {
+
+
+.increment-btn {
+  color: white;
   border: solid 1px white;
   border-radius: 7px;
   padding: 30px;
